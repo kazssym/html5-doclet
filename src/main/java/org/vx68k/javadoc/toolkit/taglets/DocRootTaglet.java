@@ -40,7 +40,7 @@ import org.vx68k.javadoc.toolkit.Content;
  *
  * @author Jamie Ho
  * @author Doug Kramer
- * @since 1.4
+ * @since JDK 1.4
  */
 
 public class DocRootTaglet extends BaseInlineTaglet {

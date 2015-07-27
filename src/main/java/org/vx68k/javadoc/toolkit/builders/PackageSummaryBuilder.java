@@ -42,7 +42,7 @@ import org.vx68k.javadoc.toolkit.util.Util;
  *
  * @author Jamie Ho
  * @author Bhavesh Patel (Modified)
- * @since 1.5
+ * @since JDK 1.5
  */
 public class PackageSummaryBuilder extends AbstractBuilder {
     /**

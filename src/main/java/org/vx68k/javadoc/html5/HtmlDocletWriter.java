@@ -69,7 +69,7 @@ import org.vx68k.javadoc.toolkit.util.Util;
  *  This code and its internal interfaces are subject to change or
  *  deletion without notice.</b>
  *
- * @since 1.2
+ * @since JDK 1.2
  * @author Atul M Dambalkar
  * @author Robert Field
  * @author Bhavesh Patel (Modified)

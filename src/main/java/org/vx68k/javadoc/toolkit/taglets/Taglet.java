@@ -57,7 +57,7 @@ import org.vx68k.javadoc.toolkit.Content;
  * For more information on how to create your own Taglets, please see the
  * <a href="{@docRoot}/overview.html">Taglet Overview</a>.
  *
- * @since 1.4
+ * @since JDK 1.4
  * @author Jamie Ho
  */
 

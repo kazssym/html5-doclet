@@ -38,7 +38,7 @@ import com.sun.javadoc.*;
  *
  *
  * @author Bhavesh Patel
- * @since 1.8
+ * @since JDK 1.8
  */
 
 public interface AnnotationTypeFieldWriter {

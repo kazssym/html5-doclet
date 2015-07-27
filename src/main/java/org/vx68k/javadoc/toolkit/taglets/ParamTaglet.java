@@ -48,7 +48,7 @@ import org.vx68k.javadoc.toolkit.util.DocFinder;
  *  deletion without notice.</b>
  *
  * @author Jamie Ho
- * @since 1.4
+ * @since JDK 1.4
  */
 public class ParamTaglet extends BaseTaglet implements InheritableTaglet {
 

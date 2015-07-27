@@ -45,7 +45,7 @@ import org.xml.sax.helpers.DefaultHandler;
  *  deletion without notice.</b>
  *
  * @author Jamie Ho
- * @since 1.5
+ * @since JDK 1.5
  * @see SAXParser
  */
 public class LayoutParser extends DefaultHandler {

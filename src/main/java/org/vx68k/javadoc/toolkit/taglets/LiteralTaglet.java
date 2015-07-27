@@ -44,7 +44,7 @@ import org.vx68k.javadoc.toolkit.Content;
  *  deletion without notice.</b>
  *
  * @author Scott Seligman
- * @since 1.5
+ * @since JDK 1.5
  */
 
 public class LiteralTaglet extends BaseInlineTaglet {

@@ -35,7 +35,7 @@ package org.vx68k.javadoc.toolkit.util;
  *  deletion without notice.</b>
  *
  * @author Jamie Ho
- * @since 1.5
+ * @since JDK 1.5
  */
 public class DocletConstants {
 

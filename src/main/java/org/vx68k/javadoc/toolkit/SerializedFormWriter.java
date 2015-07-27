@@ -38,7 +38,7 @@ import com.sun.javadoc.*;
  *  deletion without notice.</b>
  *
  * @author Jamie Ho
- * @since 1.5
+ * @since JDK 1.5
  */
 
 public interface SerializedFormWriter {

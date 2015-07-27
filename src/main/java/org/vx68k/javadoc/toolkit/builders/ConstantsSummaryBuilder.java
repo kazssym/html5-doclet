@@ -53,7 +53,7 @@ import org.vx68k.javadoc.toolkit.util.VisibleMemberMap;
  *
  * @author Jamie Ho
  * @author Bhavesh Patel (Modified)
- * @since 1.5
+ * @since JDK 1.5
  */
 public class ConstantsSummaryBuilder extends AbstractBuilder {
 
@@ -308,7 +308,7 @@ public class ConstantsSummaryBuilder extends AbstractBuilder {
      * Print the table of constants.
      *
      * @author Jamie Ho
-     * @since 1.4
+     * @since JDK 1.4
      */
     private class ConstantFieldBuilder {
 

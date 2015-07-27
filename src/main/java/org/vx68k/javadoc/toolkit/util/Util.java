@@ -776,7 +776,7 @@ public class Util {
      *
      * @param elt The FieldDoc to test
      * @return true, iff the given ElementType is one of the constants defined in Java 5
-     * @since 1.8
+     * @since JDK 1.8
      */
     public static boolean isJava5DeclarationElementType(FieldDoc elt) {
         return elt.name().contentEquals(ElementType.ANNOTATION_TYPE.name()) ||

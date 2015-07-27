@@ -54,7 +54,7 @@ import org.vx68k.javadoc.toolkit.util.DocPaths;
  *
  * @author Jamie Ho
  * @author Bhavesh Patel (Modified)
- * @since 1.4
+ * @since JDK 1.4
  */
 public class ConstantsSummaryWriterImpl extends HtmlDocletWriter
         implements ConstantsSummaryWriter {

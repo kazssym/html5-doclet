@@ -44,7 +44,7 @@ import org.vx68k.javadoc.toolkit.util.VisibleMemberMap;
  *  deletion without notice.</b>
  *
  * @author Bhavesh Patel
- * @since 1.8
+ * @since JDK 1.8
  */
 public class AnnotationTypeFieldBuilder extends AbstractMemberBuilder {
 

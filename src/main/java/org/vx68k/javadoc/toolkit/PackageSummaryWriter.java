@@ -38,7 +38,7 @@ import com.sun.javadoc.*;
  *
  * @author Jamie Ho
  * @author Bhavesh Patel (Modified)
- * @since 1.5
+ * @since JDK 1.5
  */
 
 public interface PackageSummaryWriter {

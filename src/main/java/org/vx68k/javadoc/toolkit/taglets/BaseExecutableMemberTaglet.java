@@ -35,7 +35,7 @@ package org.vx68k.javadoc.toolkit.taglets;
  *  deletion without notice.</b>
  *
  * @author Jamie Ho
- * @since 1.4
+ * @since JDK 1.4
  */
 public abstract class BaseExecutableMemberTaglet extends BaseTaglet {
 

@@ -47,7 +47,7 @@ import org.vx68k.javadoc.toolkit.util.MethodTypes;
  *  This code and its internal interfaces are subject to change or
  *  deletion without notice.</b>
  *
- * @since 1.2
+ * @since JDK 1.2
  * @author Atul M Dambalkar
  * @author Bhavesh Patel (Modified)
  */

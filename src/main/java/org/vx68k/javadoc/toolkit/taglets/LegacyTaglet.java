@@ -44,7 +44,7 @@ import org.vx68k.javadoc.toolkit.Content;
  *  This code and its internal interfaces are subject to change or
  *  deletion without notice.</b>
  *
- * @since 1.5
+ * @since JDK 1.5
  * @author Jamie Ho
  */
 

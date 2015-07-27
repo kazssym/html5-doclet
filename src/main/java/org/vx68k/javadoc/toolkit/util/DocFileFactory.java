@@ -44,7 +44,7 @@ import org.vx68k.javadoc.toolkit.Configuration;
  *  This code and its internal interfaces are subject to change or
  *  deletion without notice.</b>
  *
- * @since 1.8
+ * @since JDK 1.8
  */
 abstract class DocFileFactory {
     private static final Map<Configuration, DocFileFactory> factories =

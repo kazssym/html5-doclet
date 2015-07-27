@@ -45,7 +45,7 @@ import org.vx68k.javadoc.toolkit.util.VisibleMemberMap;
  *
  * @author Jamie Ho
  * @author Bhavesh Patel (Modified)
- * @since 1.5
+ * @since JDK 1.5
  */
 public class AnnotationTypeRequiredMemberBuilder extends AbstractMemberBuilder {
 

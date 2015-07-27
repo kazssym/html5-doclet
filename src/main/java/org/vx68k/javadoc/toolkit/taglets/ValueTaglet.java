@@ -49,7 +49,7 @@ import org.vx68k.javadoc.toolkit.Content;
  *  deletion without notice.</b>
  *
  * @author Jamie Ho
- * @since 1.4
+ * @since JDK 1.4
  */
 
 public class ValueTaglet extends BaseInlineTaglet {

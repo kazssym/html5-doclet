@@ -33,7 +33,7 @@ package org.vx68k.javadoc.toolkit.util;
  *  This code and its internal interfaces are subject to change or
  *  deletion without notice.</b>
  *
- * @since 8
+ * @since JDK 1.8
  */
 public class DocPaths {
 

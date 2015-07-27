@@ -38,7 +38,7 @@ import com.sun.javadoc.*;
  *
  * @author Jamie Ho
  * @author Bhavesh Patel (Modified)
- * @since 1.7
+ * @since JDK 1.7
  */
 
 public interface PropertyWriter {

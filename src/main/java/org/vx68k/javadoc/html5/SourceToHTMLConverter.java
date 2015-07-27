@@ -60,7 +60,7 @@ import org.vx68k.javadoc.toolkit.util.Util;
  *
  * @author Jamie Ho
  * @author Bhavesh Patel (Modified)
- * @since 1.4
+ * @since JDK 1.4
  */
 public class SourceToHTMLConverter {
 
