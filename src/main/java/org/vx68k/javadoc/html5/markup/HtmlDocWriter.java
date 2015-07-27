@@ -308,7 +308,7 @@ public abstract class HtmlDocWriter extends HtmlWriter {
      */
     public void printFramesetDocument(String title, boolean noTimeStamp,
             Content frameset) throws IOException {
-        Content htmlDocType = DocType.FRAMESET;
+        Content htmlDocType = DocType.HTML5;
         Content htmlComment = new Comment(configuration.getText("doclet.New_Page"));
         Content head = new HtmlTree(HtmlTag.HEAD);
         head.addContent(getGeneratedBy(!noTimeStamp));

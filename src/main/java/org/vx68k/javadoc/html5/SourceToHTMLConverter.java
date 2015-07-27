@@ -210,7 +210,7 @@ public class SourceToHTMLConverter {
      * @param path the path for the file.
      */
     private void writeToFile(Content body, DocPath path) throws IOException {
-        Content htmlDocType = DocType.TRANSITIONAL;
+        Content htmlDocType = DocType.HTML5;
         Content head = new HtmlTree(HtmlTag.HEAD);
         head.addContent(HtmlTree.TITLE(new StringContent(
                 configuration.getText("doclet.Window_Source_title"))));

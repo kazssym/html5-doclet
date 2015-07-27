@@ -51,6 +51,16 @@ public class DocType extends Content {
     public static final DocType FRAMESET =
             new DocType("Frameset", "http://www.w3.org/TR/html4/frameset.dtd");
 
+    public static final DocType HTML5 = new DocType();
+
+    /**
+     * Constructs a DocType object with no DTD for HTML5.
+     */
+    private DocType() {
+        // HTML5 uses no DTD.
+        docType = "<!DOCTYPE html>" + DocletConstants.NL;
+    }
+
     /**
      * Constructor to construct a DocType object.
      *
