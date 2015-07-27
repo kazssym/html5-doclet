@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.vx68k.javadoc</groupId>
+  <artifactId>html5-doclet</artifactId>
+  <name>HTML5 Doclet</name>
+  <version>1.0-SNAPSHOT</version>
+  <description>Doclet to generate HTML5 documents</description>
+  <!-- No url yet -->
+  <issueManagement>
+    <system>Bitbucket</system>
+    <url>https://bitbucket.org/kazssym/html5-doclet/issues</url>
+  </issueManagement>
+  <inceptionYear>1997</inceptionYear>
+  <developers>
+    <developer>
+      <name>Kaz Nishimura</name>
+      <email>kazssym@vx68k.org</email>
+      <organization>>Nishimura Software Studio</organization>
+      <roles>
+        <role>Arranger</role>
+      </roles>
+    </developer>
+  </developers>
+  <licenses>
+    <license>
+      <name>GNU General Public License v2.0 w/Classpath exception</name>
+      <url>http://openjdk.java.net/legal/gplv2+ce.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:hg:https://bitbucket.org/kazssym/html5-doclet</connection>
+    <developerConnection>scm:hg:https://bitbucket.org/kazssym/html5-doclet</developerConnection>
+    <tag>default</tag>
+    <url>https://bitbucket.org/kazssym/html5-doclet/src</url>
+  </scm>
+  <organization>
+    <name>Oracle</name>
+  </organization>
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>2.7</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-javadoc-plugin</artifactId>
+          <version>2.10.3</version>
+          <configuration>
+            <doclet>org.vx68k.javadoc.html5.HtmlDoclet</doclet>
+            <docletPath>${project.build.outputDirectory}</docletPath>
+            <useStandardDocletOptions>true</useStandardDocletOptions>
+            <locale>en_US</locale>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+  <dependencies>
+    <dependency>
+      <groupId>com.sun</groupId>
+      <artifactId>tools</artifactId>
+    </dependency>
+  </dependencies>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.sun</groupId>
+        <artifactId>tools</artifactId>
+        <version>${java.version}</version>
+        <scope>system</scope>
+        <systemPath>${java.home}/../lib/tools.jar</systemPath>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+  <properties>
+    <project.build.sourceEncoding>US-ASCII</project.build.sourceEncoding>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+  </properties>
+</project>
